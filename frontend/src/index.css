@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* DataPilot Design Tokens */
+:root {
+  --dp-primary: #6366f1;
+  --dp-primary-dark: #4f46e5;
+  --dp-surface: #0f172a;
+  --dp-surface-card: #1e293b;
+  --dp-surface-hover: #334155;
+  --dp-text: #f1f5f9;
+  --dp-text-muted: #94a3b8;
+  --dp-success: #22c55e;
+  --dp-warning: #f59e0b;
+  --dp-error: #ef4444;
+  --dp-border: #334155;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dp-surface);
+  color: var(--dp-text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dp-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--dp-border);
+  border-radius: 3px;
+}
