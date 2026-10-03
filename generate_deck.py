@@ -126,7 +126,7 @@ p4.font.color.rgb = TEXT_DARK
 p4.space_after = Pt(26)
 
 p5 = tf1.add_paragraph()
-p5.text = "Author: Hazique Imam  |  GitHub: github.com/haziqueimamgit/CodeCubicle-DataPilot"
+p5.text = "Author: Hazique Imam  |  GitHub: github.com/haziqueimamgit/DataMind"
 p5.font.size = Pt(12)
 p5.font.bold = True
 p5.font.color.rgb = ACCENT_SUCCESS
@@ -445,8 +445,8 @@ add_card(s11, Inches(0.8), Inches(1.7), Inches(5.6), Inches(4.9),
 add_card(s11, Inches(6.8), Inches(1.7), Inches(5.7), Inches(4.9),
     "Submission Links & Verification",
     [
-        "GitHub Repository: github.com/haziqueimamgit/CodeCubicle-DataPilot",
-        "Branch: main (all 57 files pushed and up-to-date)",
+        "GitHub Repository: github.com/haziqueimamgit/DataMind",
+        "Branch: main (all files pushed and up-to-date)",
         "Backend: FastAPI (http://localhost:8000)",
         "Frontend: React 19 + TypeScript (http://localhost:5173)",
         "Documentation: Comprehensive README.md with architecture & walkthrough",
